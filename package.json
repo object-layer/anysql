@@ -1,0 +1,34 @@
+{
+  "name": "anysql",
+  "version": "0.1.0",
+  "description": "Connection pooling, querying and transaction handling for any SQL databases",
+  "author": "Manuel Vila <mvila@3base.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/object-layer/anysql"
+  },
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "prepublish": "npm run compile",
+    "release": "npm run lint && npm run compile && npm test && (git checkout --quiet master && test -z \"$(git status --porcelain)\" && npm version $npm_config_release_type && git push --follow-tags) || echo \"An error occured (unclean repository?)\"",
+    "release-patch": "npm run release --release-type=patch",
+    "release-minor": "npm run release --release-type=minor",
+    "release-major": "npm run release --release-type=major",
+    "lint": "eslint .",
+    "test": "echo \"Warning: no test specified\" && exit 0"
+  },
+  "dependencies": {
+    "anysql-mysql": "^0.1.2"
+  },
+  "devDependencies": {
+    "babel": "~5.8.20",
+    "babel-eslint": "~4.0.5",
+    "eslint": "~1.1.0",
+    "eslint-config-next": "~0.1.0"
+  },
+  "browser": {
+    "anysql-mysql": false
+  }
+}
