@@ -1,6 +1,6 @@
 # AnySQL [![Build Status](https://travis-ci.org/object-layer/anysql.svg?branch=master)](https://travis-ci.org/object-layer/anysql)
 
-Connection pooling, querying and transaction handling for any SQL databases.
+Modern minimal API for any SQL databases.
 
 ### Features
 

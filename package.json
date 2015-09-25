@@ -1,7 +1,7 @@
 {
   "name": "anysql",
   "version": "0.1.0",
-  "description": "Connection pooling, querying and transaction handling for any SQL databases",
+  "description": "Modern minimal API for any SQL databases",
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
   "main": "lib/index.js",
