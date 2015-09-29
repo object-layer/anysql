@@ -20,13 +20,13 @@
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "dependencies": {
-    "anysql-mysql": "^0.1.2"
+    "anysql-mysql": "^0.1.4"
   },
   "devDependencies": {
-    "babel": "~5.8.20",
-    "babel-eslint": "~4.0.5",
-    "eslint": "~1.1.0",
-    "eslint-config-next": "~0.1.0"
+    "babel": "^5.8.23",
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.5.1",
+    "eslint-config-next": "^0.1.0"
   },
   "browser": {
     "anysql-mysql": false
