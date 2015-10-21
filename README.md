@@ -1,6 +1,6 @@
 # AnySQL [![Build Status](https://travis-ci.org/object-layer/anysql.svg?branch=master)](https://travis-ci.org/object-layer/anysql)
 
-Modern minimal API for any SQL databases.
+Modern minimal API for any SQL database.
 
 ### Features
 
