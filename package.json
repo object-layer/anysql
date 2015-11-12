@@ -20,7 +20,9 @@
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "dependencies": {
-    "anysql-mysql": "^0.1.4"
+    "anysql-cordova-sqlite": "^0.4.2",
+    "anysql-mysql": "^0.1.4",
+    "anysql-websql": "^0.3.2"
   },
   "devDependencies": {
     "babel": "^5.8.23",

@@ -12,9 +12,11 @@ export class AnySQL {
         let MySQL = require('anysql-mysql').default;
         return new MySQL(url);
       case 'websql':
-        throw new Error('Not yet implemented');
-      case 'sqlite':
-        throw new Error('Not yet implemented');
+        let WebSQL = require('anysql-websql').default;
+        return new WebSQL(url);
+      case 'cordova-sqlite':
+        let SQLite = require('anysql-cordova-sqlite').default;
+        return new SQLite(url);
       default:
         throw new Error('Unknown database');
     }
