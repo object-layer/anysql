@@ -1,6 +1,6 @@
 {
   "name": "anysql",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Modern minimal API for any SQL database",
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
