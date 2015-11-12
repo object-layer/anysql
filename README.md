@@ -12,8 +12,9 @@ Modern minimal API for any SQL database.
 ### Supported databases
 
 - MySQL
-- WebSQL (to come)
-- CordovaSQLite (to come)
+- WebSQL (Chrome and Safari)
+- SQLite (via [CordovaSQLitePlugin](https://www.npmjs.com/package/cordova-sqlite-plugin))
+- More to come (PR welcome!)
 
 ## Installation
 
@@ -47,10 +48,6 @@ await anysql.transaction(async function(transaction) {
   // if no error has been thrown, the transaction is automatically committed
 });
 ```
-
-## To do
-
-- Support more databases (PR welcome!)
 
 ## License
 
