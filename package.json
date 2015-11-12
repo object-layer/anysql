@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "anysql-cordova-sqlite": "^0.4.2",
-    "anysql-mysql": "^0.1.4",
+    "anysql-mysql": "^0.1.5",
     "anysql-websql": "^0.3.2"
   },
   "devDependencies": {
