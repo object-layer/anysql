@@ -20,14 +20,15 @@
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
   "dependencies": {
-    "anysql-cordova-sqlite": "^0.4.2",
-    "anysql-mysql": "^0.1.5",
-    "anysql-websql": "^0.3.2"
+    "anysql-cordova-sqlite": "^0.5.0",
+    "anysql-mysql": "^0.2.0",
+    "anysql-websql": "^0.4.0"
   },
   "devDependencies": {
-    "babel": "^5.8.23",
-    "babel-eslint": "^4.1.3",
-    "eslint": "^1.5.1",
+    "babel-cli": "^6.4.0",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-preset-es2015": "^6.3.13",
+    "eslint": "^2.0.0-beta.1",
     "eslint-config-next": "^0.1.0"
   },
   "browser": {
